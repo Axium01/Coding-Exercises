@@ -1,0 +1,72 @@
+For this assignment you'll mimic a Contacts database with 6 entries, each with a person's name. 
+
+This assignment outputs to a prompt and an HTML page.
+
+Create an application that meets the following requirements
+
+For this one exercise do not use any user defined functions for core requirement.
+
+Bonus is possible if one and only one user defined function is used for the HTML table only.
+
+Either way, CSS shall be used to style all HTML elements.
+
+Interface Requirements
+1. On page load, present all of the contents of an array in a CSS styled HTML Page, one slot per row. For core requirement, no need to load it into an HTML table.
+
+UX shall look something like this with no borders as I demonstrated in class:
+
+Contacts
+
+Slot #	Number
+0	Arnold
+1	Sly
+2	Dwayne
+3	Vin
+4	JCVD
+5	Steven
+Program Flow
+2. Using a prompt, ask the user to provide an "Entry Number". 
+
+If the entry number exists, use a prompt to present the corresponding name in the message "Displaying <name>."  
+Where <name> corresponds with the slot number selected.  (Do not include the carets <>.)
+In the same prompt on a second line, ask if they want to make another selection y/n?.
+ Loop back to the beginning of Step 2 when they do.
+If the entry number does not exist,
+Use a prompt to present the user with the message, "That Entry is not in the Database."
+In the same prompt on a second line, ask if they want to make another selection y/n?.
+3.  When the user selects n when asked about another selection.
+
+Send the user a non default, nicely styled exit message of your creation in an HTML page. 
+**  "Non default, nicely styled" HTML page means to control the style with CSS so that all visible HTML elements are modified in some way. 
+Style shall support an appropriate visual hierarchy.
+Style shall be legible.
+Style shall be readable.
+Style shall be cohesive.
+Style:
+How well do the style choices you make support the content and meaning of the content?
+How well do the style choices you make contribute to legibility, readability, cohesivity, and meaning?
+ 
+
+Coding Requirements
+Use an Array to store names. 
+
+Use a while loop to search for name.
+
+On initial page load display the contents of the Contacts list on an HTML
+
+The Table in the initial display is not required.  
+
+Control style with CSS.
+
+For Full Credit: 
+
+Code must run without errors.
+App flow must be exactly as specified in the requirements.
+Proper choice of decision control structure.
+All if..else statements use a trailing else. 
+User input shall be case insensitive.
+UX shall be exactly as required in Interface Requirements section, including text, punctuation, spelling, case.  
+Styles shall be used to make a well crafted, non default, cohesive, and nicely styled display.
+Javascript and HTML shall be written in the index.html file.  This file shall be the only file at web root following best practices as demonstrated.
+CSS shall be written in a style.css file.  This file shall be in the css directory at web root following best practices as demonstrated.
+Supporting images shall be in the images directory at web root following best practices as demonstrated.
