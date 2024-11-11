@@ -1,0 +1,66 @@
+Question and URL Submission
+
+We all know how calculators work: Users enter numbers and perform mathematical operations.
+
+We are going to start with a very simple calculator that will perform a single operation at a time on two or more numbers.
+
+This app will use only prompts and alerts.
+
+Do not use user defined functions for this assignment.  Doing so shall receive a zero for the assignment.
+
+ 
+
+1. Prompt the user to enter numbers.
+
+calc1.JPG
+
+Store the numbers in an array.
+
+ 
+
+2. Ask if user wants to enter more numbers.
+
+calc2.JPG
+
+ 
+
+3. Tell the user how many numbers are entered after each entry. 
+
+calc3.JPG
+
+ 
+
+4. When user responds negative to adding more numbers, prompt with operation selection.
+
+(+ for add, - for subtract, * for multiply, / for divide)
+
+calcOperation.JPG
+
+Allow only 2 numerals for division.
+
+If division is selected and there are more than 2 numbers, send meaningful error message.
+
+ 
+
+5.  Display to user the calculation result along with how many numbers were entered.
+
+6. Ask the user if they want to perform another calculation.
+
+If they do want to, loop back to Step 1.
+If they do not want to, go to Step 7.
+calc5.JPG
+
+7. When user chooses not to do another calculation, use an alert to present a well considered goodbye message of your choosing,  thanking the user and ending on an upbeat note.
+
+ 
+
+For Full Credit: 
+
+Code must run without errors.
+App flow must be exactly as specified in the requirements.
+Proper choice of decision control structure.
+User input shall be case insensitive.
+All if..else statements use a trailing else. 
+UX must be exactly as required above, text, punctuation, spelling, case.  
+Exception is where the pictures above show the binary gobbeldeegook along the top.  
+ 
